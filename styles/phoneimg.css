@@ -1,0 +1,157 @@
+section h2 {
+    font-weight: normal;
+}
+
+section #phone {
+    height: 650px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background: transparent;
+}
+
+section #phone .phoneimg {
+    background: transparent;
+    height: 650px;
+    width: 400px;
+    margin-right: 20px;
+    padding-right: 120px;
+}
+
+section #phone .dedonde {
+    background: transparent;
+    height: 500px;
+    width: 464px;
+    padding-top: 110px;
+    font-weight: 600;
+    padding-right: 80px;
+}
+
+section #phone .dedonde .imgp {
+    font-size: 48px;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+section #phone .dedonde .our {
+    background: transparent;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+@media (max-width:1439px) {
+    section #phone .phoneimg {
+        background: transparent;
+        height: 650px;
+        width: 400px;
+        margin-right: 20px;
+        padding-right: 50px;
+    }
+
+    section #phone .dedonde {
+        background: transparent;
+        height: 500px;
+        width: 464px;
+        padding-top: 110px;
+        font-weight: 600;
+        padding-right: 0px;
+    }
+}
+
+@media (max-width:870px) {
+    section #phone {
+        display: flex;
+        flex-wrap: wrap;
+        background: transparent;
+    }
+
+    section #phone .phoneimg {
+        background: transparent;
+        height: 650px;
+        width: 400px;
+        margin-right: 0;
+        padding-right: 0;
+    }
+
+    section #phone .dedonde {
+        background: transparent;
+        height: 500px;
+        width: 400px;
+        padding-top: 150px;
+    }
+}
+
+
+@media (max-width:800px) {
+    section #phone {
+        height: 1060px;
+        display: flex;
+        flex-wrap: wrap;
+        background: transparent;
+    }
+
+    section #phone .phoneimg {
+        background: transparent;
+        height: 650px;
+        width: 400px;
+        margin-right: 0;
+        padding-right: 0;
+    }
+
+    section #phone .dedonde {
+        background: transparent;
+        height: 410px;
+        width: 400px;
+        padding-top: 0;
+    }
+}
+
+
+@media (max-width:630px) {
+    section #phone {
+        height: 650px;
+        width: 100%;
+        margin-top: 40px;
+        margin-bottom: 400px;
+        display: flex;
+        justify-content: center;
+        background: transparent;
+    }
+}
+
+
+@media (max-width:420px) {
+
+    section #phone .phoneimg {
+        background: transparent;
+        height: 600px;
+        width: 400px;
+        margin-right: 0;
+        padding-right: 0;
+    }
+
+    section #phone .dedonde {
+        background: transparent;
+        height: 410px;
+        width: 400px;
+        padding-top: 0;
+        padding-right: 16px;
+        padding-left: 16px;
+    }
+
+    section #phone {
+        display: flex;
+        flex-wrap: wrap;
+        background: transparent;
+    }
+}
+
+
+@media (max-width:400px) {
+    section #phone .phoneimg {
+        background: transparent;
+        height: 560px;
+        width: 320px;
+        margin-right: 0;
+        padding-right: 0;
+    }
+}

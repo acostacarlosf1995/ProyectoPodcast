@@ -1,0 +1,198 @@
+@import url(header.css);
+@import url(skew.css);
+@import url(phoneimg.css);
+@import url(invitadas.css);
+@import url(svgimages.css);
+@import url(footer.css);
+
+body{
+    margin: 0;
+    height: 0;
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+a{
+    color: white;
+}
+
+.nav{
+    background-color: white;
+    position: absolute;
+    width: 100%;
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+}
+
+.nav .cont-nav{
+    width: 1280px;
+    margin-top: 12px;
+}
+
+.nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    overflow: hidden;
+    background-color: #0000FE;
+}
+
+.nav ul a{
+    font-weight: 600;
+    font-size: 16px;
+    display: block;
+    padding: 20px;
+    text-decoration: none;
+}
+
+.nav ul a:hover{
+    background: linear-gradient(to right, #00F0B8, #0000FE);
+}
+
+.nav .logo{
+    float: left;
+    display: block;
+    font-size: 2em;
+    padding: 10px 20px;
+}
+
+.nav img {
+    width: 36px;
+    height: 36px;
+}
+
+.nav .menu{
+    clear: both;
+    max-height: 0;
+    transition: max-height .2s ease-out;
+}
+
+.nav .menu-icon{
+    padding: 28px 20px;
+    position: relative;
+    float: right;
+    cursor: pointer;
+}
+
+.nav .menu-icon .nav-icon{
+    background: #000000;
+    display: block;
+    height: 2px;
+    width: 18px;
+    position: relative;
+    transition: background .2s ease-out;
+}
+
+.nav .menu-icon .nav-icon:before{
+    background: #000000;
+    content: "";
+    display: block;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    transition: all .2s ease-out;
+    top: 5px;
+}
+
+.nav .menu-icon .nav-icon:after{
+    background: #000000;
+    content: "";
+    display: block;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    transition: all .2s ease-out;
+    top: -5px;
+}
+
+.nav .menu-btn{
+    display: none;
+}
+
+.nav .menu-btn:checked ~ .menu{
+    max-height: 240px;
+}
+
+.nav .menu-btn:checked ~ .menu-icon .nav-icon{
+    background: transparent;
+}
+
+.nav .menu-btn:checked ~ .menu-icon .nav-icon:before{
+    transform: rotate(-45deg);
+    top: 0;
+}
+
+.nav .menu-btn:checked ~ .menu-icon .nav-icon:after{
+    transform: rotate(45deg);
+    top: 0;
+}
+
+@media (max-width: 1439px) {
+    .nav .cont-nav{
+        width: 1280px;
+        margin-top: 0px;
+    }
+
+    .nav ul a{
+        font-weight: 500;
+        display: block;
+        padding: 20px;
+        text-decoration: none;
+    }
+
+    .nav img {
+        width: 24px;
+        height: 24px;
+    }
+}
+
+@media (min-width:48em){
+
+    .nav li{
+        float: left;
+    }
+
+    .nav li a{
+        padding: 20px 26px;
+    }
+
+    .nav .menu{
+        clear: none;
+        float: right;
+        max-height: none;
+    }
+
+    .nav .menu-icon{
+        display: none;
+    }
+
+    .nav ul{
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        overflow: hidden;
+        background-color: white;
+    }
+
+    a{
+        color: #060A24;
+    }
+
+    .nav ul a:hover{
+        text-decoration: line-through;
+        background: white;
+        color: #00F3BB;
+    }
+
+    .nav ul a:active{
+        color: #060A24;
+    }
+}
+.max-container {
+    margin-top: 62px;
+}
+
+footer {
+    margin-top: 30px;
+    position: absolute;
+}

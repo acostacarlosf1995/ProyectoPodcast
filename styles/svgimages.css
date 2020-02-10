@@ -1,0 +1,193 @@
+section #algunos {
+    font-size: 42px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+section .algunosp {
+    background: transparent;
+    width: 1100px;
+    padding-left: 16px;
+}
+
+section .svgcontainer {
+    background: transparent;
+    margin-top: 0;
+    display: flex;
+    justify-content: center;
+}
+
+section .iconcontainer {
+    background: transparent;
+    margin-top: 20px;
+    width: 900px;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 16px;
+    padding-left: 16px;
+}
+
+section .icon1cont {
+    background: transparent;
+    display: flex;
+    flex-direction: column;
+}
+
+section .icon1 {
+    height: 104px;
+    width: 104px;
+    background: transparent;
+    margin: 0 auto;
+}
+
+section .icon1p {
+    font-size: 24px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 600;
+    background: transparent;
+    text-align: center;
+}
+
+
+section .icon2cont {
+    background: transparent;
+    display: flex;
+    flex-direction: column;
+}
+
+section .icon2 {
+    height: 104px;
+    width: 104px;
+    margin: 0 auto;
+}
+
+section .icon2p {
+    font-size: 24px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 600;
+    background: transparent;
+    text-align: center;
+}
+
+
+section .icon3cont {
+    background: transparent;
+    display: flex;
+    flex-direction: column;
+}
+
+section .icon3 {
+    height: 104px;
+    width: 104px;
+    margin: 0 auto;
+}
+
+section .icon3p {
+    font-size: 24px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 600;
+    background: transparent;
+    text-align: center;
+}
+
+
+section .icon4cont {
+    background: transparent;
+    display: flex;
+    flex-direction: column;
+}
+
+section .icon4 {
+    height: 104px;
+    width: 104px;
+    margin: 0 auto;
+}
+
+section .icon4p {
+    font-size: 24px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 600;
+    background: transparent;
+    text-align: center;
+}
+
+@media (max-width:1439px) {
+    section #algunos {
+        font-size: 42px;
+        font-family: 'IBM Plex Sans', sans-serif;
+        padding-top: 15px;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media (max-width:670px) {
+    section .iconcontainer {
+        background: transparent;
+        width: 800px;
+        display: flex;
+        flex-direction: column;
+        padding-right: 16px;
+        padding-left: 16px;
+    }
+
+    section .icon1cont {
+        background: transparent;
+        display: flex;
+        flex-direction: column;
+        margin-top: 40px;
+    }
+
+    section .icon2cont {
+        background: transparent;
+        display: flex;
+        flex-direction: column;
+        margin-top: 40px;
+    }
+
+    section .icon3cont {
+        background: transparent;
+        display: flex;
+        flex-direction: column;
+        margin-top: 40px;
+    }
+
+    section .icon4cont {
+        background: transparent;
+        display: flex;
+        flex-direction: column;
+        margin-top: 40px;
+    }
+} 
+
+@media (max-width:434px) {
+    section #algunos {
+        font-size: 42px;
+        font-family: 'IBM Plex Sans', sans-serif;
+        padding-top: 80px;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media (max-width:375px) {
+    section #algunos {
+        font-size: 42px;
+        font-family: 'IBM Plex Sans', sans-serif;
+        padding-top: 300px;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media (max-width:372px) {
+    section #algunos {
+        font-size: 42px;
+        font-family: 'IBM Plex Sans', sans-serif;
+        padding-top: 80px;
+        display: flex;
+        justify-content: center;
+    }
+}
