@@ -1,3 +1,2 @@
 # ProyectoPodcast
-Primer Proyecto Acamica
-![](images/Pic1PodcastProyect.png) 
+<img src="images/Pic1PodcastProyect.png" width="448px">
