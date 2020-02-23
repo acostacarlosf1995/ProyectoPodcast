@@ -1,2 +1,2 @@
 # ProyectoPodcast
-<img src="images/Pic1PodcastProyect.png" width="448px">
+<img src="images/PodcastProyectPic1.png" width="240px">
